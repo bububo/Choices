@@ -48,6 +48,7 @@ global.navigator = {
 global.HTMLElement = window.HTMLElement;
 
 copyProps(window, global);
+
 mockRAF(global);
 
 ignoreExtensions(['.scss', '.css']);
